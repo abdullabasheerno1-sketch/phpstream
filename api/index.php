@@ -23,7 +23,6 @@ def proxy(path):
         
         return Response(resp.raw.read(), status=resp.status_code, headers=resp_headers)
     except Exception as e:
-        # ഫെച്ച് ചെയ്യാൻ പറ്റിയില്ലെങ്കിൽ ഡയറക്റ്റ് റീഡയറക്ട് ചെയ്യും
         return redirect(target_url, code=302)
 
 if __name__ == '__main__':
