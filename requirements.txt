@@ -1,6 +1,2 @@
-
-your-repo-name/
-├── api/
-│   └── index.py
-├── requirements.txt
-└── vercel.json
+Flask
+requests
